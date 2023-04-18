@@ -6,6 +6,6 @@ paths = [
     r"C:\Users\calvi\3D Objects\git_sync",
 ]
 
-for item in paths:
-    cmd = 'cd "'+ item + '" & git pull'
+for path in paths:
+    cmd = 'cd "'+ path + '" & git pull'
     os.system(cmd)
